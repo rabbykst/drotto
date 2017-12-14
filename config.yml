@@ -9,11 +9,11 @@
   
   # Posting wif is used to vote reply with a confirm comment.  See
   # `support/confirm.md` to customize confir comment.
-  :posting_wif: 5JrvPrQeBBvCRdjv29iDvkwn3EQYZ9jqfAHzrCyUvfbEbRkrYFC
+  :posting_wif: 5JUugkHtuv1DcaavbAoeuxCraPzKRhmvfgjrwiEPYGJdCsW3qA9
   
   # Active wif is only used in bounce mode to return funds.  Please transfer
   # funds out of your wallet before using bounce mode.
-  :active_wif: 5JrvPrQeBBvCRdjv29iDvkwn3EQYZ9jqfAHzrCyUvfbEbRkrYFC
+  :active_wif: 5JUugkHtuv1DcaavbAoeuxCraPzKRhmvfgjrwiEPYGJdCsW3qA9
   
   # Maximum age of post (in minutes).  Bids not accepted are returned, if
   # refunds are enabled.  7,200 minutes is 5 days.  Setting this avoids
@@ -24,7 +24,7 @@
   # Batch vote weight is split between the bidders.  This value also sets the
   # batch timespan.  E.g.: Setting 100.00 % results in one batch every 2.4
   # hours; 50.00 % results in one batch every 1.2 hours; so on.
-  :batch_vote_weight: 100.00 %
+  :batch_vote_weight: 12.25 %
   
   # When calculating a window, a bid will be ignored if it doesn't reach this
   # minimum.  If 0.00 %, all bids are accepted no matter how little they impact
@@ -37,7 +37,7 @@
   :reserve_vote_weight: 0.00 %
   
   # Minimum bid amount.
-  :minimum_bid: 2.000 SBD
+  :minimum_bid: 0.01 SBD
   
   # Set this true to allow bids for comments as well as root posts.
   :allow_comment_bids: false
