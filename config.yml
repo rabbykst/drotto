@@ -5,7 +5,7 @@
   :block_mode: irreversible
   
   # Account name for voting.
-  :account_name: social
+  :account_name: jonbee
   
   # Posting wif is used to vote reply with a confirm comment.  See
   # `support/confirm.md` to customize confir comment.
